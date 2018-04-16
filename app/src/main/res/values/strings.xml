@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">GaleriaProyecto</string>
+    <string name="action_settings">Settings</string>
+    <string name="galerydescription">Bienvenido</string>
+    <string name="Nombre">Nombre</string>
+    <string name="Descripcion">Descripción</string>
+    <string name="username">Ingrese su nombre de usuario</string>
+    <string name="password">Ingrese su contraseña</string>
+    <string name="loggin">Iniciar sesión</string>
+    <string name="registerandlogin">Registrarse/Iniciar sesión</string>
+    <string name="app_register">Registrece</string>
+    <string name="app_login">Iniciar sesión</string>
+    <string name="agregarimagen">Agregar imagen</string>
+    <string name="ImagenPrevia">Imagen previa</string>
+    <string name="loginerror">No son los datos correctos</string>
+    <string name="tryregister">no se encuentran sus datos</string>
+    <string name="loogout">Cerrar sesión</string>
+</resources>

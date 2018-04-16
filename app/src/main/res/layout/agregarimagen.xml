@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/fab_margin"
+        android:orientation="vertical"
+        android:layout_marginBottom="10dp">
+
+        <ImageView
+            android:id="@+id/imagen"
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:layout_marginBottom="10dp"
+            android:background="@android:drawable/ic_menu_camera"
+            android:backgroundTint="?attr/colorPrimaryDark" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/nombre"
+            android:text="@string/Nombre"
+            android:layout_marginBottom="10dp"
+            android:hint="@+id/nombre"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/autor"
+            android:text="@string/Descripcion"
+            android:layout_marginBottom="10dp"
+            android:hint="@+id/autor"/>
+        <Button
+            android:id="@+id/guardar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Guardar"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/botonlogin" />
+    </LinearLayout>
+</ScrollView>
